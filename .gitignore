@@ -1,0 +1,6 @@
+# Ignore everything except the design, test bench, and seed
+*
+!.gitignore
+!mp3.sv
+!mp3_tb.sv
+!seed.mem
