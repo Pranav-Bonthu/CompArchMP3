@@ -1,6 +1,8 @@
-# Ignore everything except the design, test bench, and seed
+# Keep only source files; build outputs (json, asc, bin, vvp, fst) stay local
 *
 !.gitignore
-!mp3.sv
-!mp3_tb.sv
-!seed.mem
+!*.sv
+!*.memh
+!*.pcf
+!build.bat
+!README.md
